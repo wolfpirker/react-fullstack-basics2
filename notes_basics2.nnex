@@ -103,10 +103,21 @@ rerendered anyhow!</li>
 <div>
 <ul>
 <li>super dump</li>
+<li>import it in App.js:</li>
+<ul>
+<li>
+<div style=
+"color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: 'Droid Sans Mono', monospace, monospace, 'Droid Sans Fallback'; font-size: 14px; line-height: 19px; white-space: pre;">
+<span style="color: #c586c0;">import</span> <span style=
+"color: #9cdcfe;">Adjel</span> <span style=
+"color: #c586c0;">from</span> <span style=
+"color: #ce9178;">'./components/adjel'</span>;</div>
+</li>
+</ul>
+<li>create a route for the component</li>
 <li><br /></li>
 </ul>
 </div>
-<div><br /></div>
 <div>HOC part 1</div>
 <div>
 <ul>
@@ -130,9 +141,9 @@ rerendered anyhow!</li>
 <div><br /></div>
 <div>Honorable mentions</div>
 </en-note>]]></Content>
-        <ContentLength>4339</ContentLength>
+        <ContentLength>4820</ContentLength>
         <Created>1639241402813</Created>
-        <Updated>1639253197701</Updated>
+        <Updated>1639253928650</Updated>
         <Active>true</Active>
         <UpdateSequenceNumber>0</UpdateSequenceNumber>
         <NotebookGuid>d0d14f74-6b64-483b-8f9d-b6474c5eb883</NotebookGuid>
