@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NixNote-Export>
+<nixnote-export version="2" exportType="export" application="NixNote" applicationVersion="2.x">
+    <Note>
+        <Guid>97688a15-5951-4b90-b748-3bd2a59a0239</Guid>
+        <Title>React Fullstack Course (2021) - Basics part 2</Title>
+        <Content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM 'http://xml.evernote.com/pub/enml2.dtd'><en-note style=
+"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+
+Introduction
+<div>
+<ul>
+<li>first create the project, then (npx create-react-app .)</li>
+<ul>
+<li><span style=
+"color: rgb(28, 29, 31); font-family: 'sf pro text', -apple-system, BlinkMacSystemFont, Roboto, 'segoe ui', Helvetica, Arial, sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol'; font-size: 14px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">
+npm install react-router@5</span></li>
+<li><span style=
+"color: rgb(28, 29, 31); font-family: 'sf pro text', -apple-system, BlinkMacSystemFont, Roboto, 'segoe ui', Helvetica, Arial, sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol'; font-size: 14px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">
+npm install react-router-dom@5</span></li>
+</ul>
+<li>remove unneeded files</li>
+<li>use code from previous section - BrowserRouter, Routes, Switch
+etc.</li>
+<ul>
+<li>Switch is optional</li>
+<ul>
+<li>more on Switch:&nbsp;<a href=
+"https://stackoverflow.com/questions/60136028/what-exactly-is-switch-used-for-in-react-router"
+title=
+"https://stackoverflow.com/questions/60136028/what-exactly-is-switch-used-for-in-react-router">https://stackoverflow.com/questions/60136028/what-exactly-is-switch-used-for-in-react-router</a></li>
+</ul>
+</ul>
+<li>create a header component with NavLinks</li>
+<li>home component</li>
+<li>nothing new</li>
+</ul>
+</div>
+<div><span style=
+"background-color: rgb(255, 255, 0);">PureComponent</span></div>
+<div>
+<ul>
+<li>what is pure components? What to solve with it?</li>
+<ul>
+<li>efficiency reasons, avoid rerender when state values stay the
+same</li>
+</ul>
+<li>import module:</li>
+<ul>
+<li>
+<div style=
+"color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: 'Droid Sans Mono', monospace, monospace, 'Droid Sans Fallback'; font-size: 14px; line-height: 19px; white-space: pre;">
+<span style="color: #c586c0;">import</span> <span style=
+"color: #9cdcfe;">React</span>, { <span style=
+"color: #9cdcfe;">PureComponent</span> } <span style=
+"color: #c586c0;">from</span> <span style=
+"color: #ce9178;">'react'</span>;</div>
+</li>
+<li>for class based Pure components</li>
+<ul>
+<li>
+<div style=
+"color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: 'Droid Sans Mono', monospace, monospace, 'Droid Sans Fallback'; font-size: 14px; line-height: 19px; white-space: pre;">
+<span style="color: #569cd6;">class</span> <span style=
+"color: #4ec9b0;">PureComp</span> <span style=
+"color: #569cd6;">extends</span> <span style=
+"color: #4ec9b0;">PureComponent</span> {</div>
+</li>
+</ul>
+</ul>
+<li>what we have in our app:</li>
+<ul>
+<li>a button that changes a name</li>
+</ul>
+<li>as a normal class based component:</li>
+<ul>
+<li>rerender happen on Button event even if state value stays the
+same!</li>
+<li><span style="background-color: rgb(255, 255, 0);">as a Pure
+classbased component: this rerender does not happen!</span></li>
+</ul>
+<li>in the example it would be easy to solve with Class based
+components</li>
+<li>pureCompF is just for practice purpose</li>
+<ul>
+<li><span style="background-color: rgb(255, 255, 0);">is actually
+just a normal functional component</span></li>
+<li>but there is a issue:</li>
+<ul>
+<li>if we get props, and the props are the same: the component will
+rerender</li>
+<li>Remember: we heard about this previously when it was about
+useCallback; we used React Memmo!&nbsp;</li>
+<li>but just for updating the state, the component is not
+rerendered anyhow!</li>
+</ul>
+</ul>
+<li><br /></li>
+</ul>
+</div>
+<div>Adjacent elements</div>
+<div>
+<ul>
+<li>super dump</li>
+<li><br /></li>
+</ul>
+</div>
+<div><br /></div>
+<div>HOC part 1</div>
+<div>
+<ul>
+<li>super important</li>
+<ul>
+<li>looks a bit weird, but</li>
+<li>used on pretty much every single react application</li>
+</ul>
+</ul>
+</div>
+<div><br /></div>
+<div>HOC part 2</div>
+<div><br /></div>
+<div>Transitions</div>
+<div><br /></div>
+<div>Transitions part 2</div>
+<div><br /></div>
+<div>CSS transitions</div>
+<div><br /></div>
+<div>Transitions group</div>
+<div><br /></div>
+<div>Honorable mentions</div>
+</en-note>]]></Content>
+        <ContentLength>4339</ContentLength>
+        <Created>1639241402813</Created>
+        <Updated>1639253197701</Updated>
+        <Active>true</Active>
+        <UpdateSequenceNumber>0</UpdateSequenceNumber>
+        <NotebookGuid>d0d14f74-6b64-483b-8f9d-b6474c5eb883</NotebookGuid>
+        <Attributes>
+            <Author>wolfi</Author>
+        </Attributes>
+        <Dirty>true</Dirty>
+    </Note>
+</nixnote-export>
